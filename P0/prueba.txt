@@ -1,1 +1,1 @@
-esta es una prueba
+Esta es una prueba de crecion de un archivo de texto desde VSCode
