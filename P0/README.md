@@ -9,3 +9,6 @@ Probando el visual Vscode...
 
 
 .... tercer cambio
+
+
+![](Ejercicio2-img1.gif)
