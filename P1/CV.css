@@ -1,0 +1,16 @@
+.cv{
+    background-image: url("https://pabloarribasgar.github.io/2020-2021-CSAAI-Practicas/P1/ronaldo-wallpaper.jpg");
+    max-width: 980px;
+    margin: auto;
+    font-size: 18px;
+}
+.personalInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0;
+    font-size: 16px;
+}
+.photo{
+    max-height: 150px;
+}
