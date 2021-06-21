@@ -1,5 +1,6 @@
+/* acuerdate de cambiar el color  para ponerlo bien con el fondo */
 .cv{
-    background-image: url("https://pabloarribasgar.github.io/2020-2021-CSAAI-Practicas/P1/images.jpg");
+    background-image: url("https://pabloarribasgar.github.io/2020-2021-CSAAI-Practicas/P1/ronaldo-wallpaper.jpg");
     max-width: 980px;
     margin: auto;
     font-size: 18px;
@@ -13,4 +14,43 @@
 }
 .photo{
     max-height: 150px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.name{
+    text-align: center;
+    font-size: 40px;
+}
+.cvInfo{
+    margin: 20px 50px;
+}
+.info{
+    align-self: center;
+}
+.title{
+    font-size:24px;
+    margin-top: 40px;
+}
+section{
+    margin: 0 10%;
+}
+.sectionInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.sectionDetail{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.infoType{
+    font-weight: 600;
+}
+.sectionDetailList{
+    margin-top: 5px;
 }
