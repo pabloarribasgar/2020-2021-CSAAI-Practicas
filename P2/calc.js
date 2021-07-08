@@ -6,7 +6,7 @@ function numero (number){
 function operacion (operator) {
     input = document.getElementsByClassName("display")[0];
     const lastInput = input.value.charAt(input.value.length-1);
-    
+    const numbers = howManyNumbers(input.value);
     switch (operator){
         case '*':
         case '/':
@@ -21,7 +21,7 @@ function operacion (operator) {
             } else if(numbers < 2)
                 input.value += operator;
             else 
-                alert('Solo se permiten dos numeros');
+                alert('Solo se permite una operacion');
             break;
         case 'DEL':
             input.value = input.value.substr(0, input.value.length-1);
