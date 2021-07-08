@@ -16,13 +16,25 @@ function operacion (operator) {
             }
         case '+':
         case '-':
-           
+            if (lastInput == '+' || lastInput == '-'){
+                alert('Introduce un numero');
+            } else if(numbers < 2)
+                input.value += operator;
+            else 
+                alert('Solo se permiten dos numeros');
+            break;
+
         case 'DEL':
-          
+            input.value = input.value.substr(0, input.value.length-1);
+            break;
         case 'AC':
-            
+            input. value = "";
+            break;
         case '=':
-          
+            if (numbers < 1)
+            alert('Introduce un numero primero');
+        input.value = Math.round(eval(input.value));
+        break;
         default:
             break;
     }
