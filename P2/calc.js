@@ -23,7 +23,6 @@ function operacion (operator) {
             else 
                 alert('Solo se permiten dos numeros');
             break;
-
         case 'DEL':
             input.value = input.value.substr(0, input.value.length-1);
             break;
