@@ -27,3 +27,18 @@ function operacion (operator) {
             break;
     }
 }
+
+function howManyNumbers(value){
+    let numbers = 0;
+    let lastCharNumber = false;
+    for (let i=0; i < value.length; i++){
+        if(!isNaN(value.charAt(i))){
+            if(!lastCharNumber)
+                numbers++;
+            lastCharNumber = true;
+        } else {
+            lastCharNumber = false;
+        }
+    }
+    return numbers;
+}
