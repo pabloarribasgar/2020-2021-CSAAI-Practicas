@@ -2,6 +2,8 @@
     height: 500px;
     width: 300px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
     background-color: grey;
     padding: 20px
 }
