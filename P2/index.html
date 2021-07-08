@@ -12,11 +12,11 @@
     <div class="calculator">
         <input class="display" disabled>
         <div class="operatorsRow">
-            <button class="operator">+</button>
-            <button class="operator">-</button>
-            <button class="operator">*</button>
-            <button class="operator">/</button>
-            <button class="operator">DEL</button>
+            <button class="operator" onclick="operacion('+')">+</button>
+            <button class="operator" onclick="operacion('-')">-</button>
+            <button class="operator" onclick="operacion('*')">*</button>
+            <button class="operator" onclick="operacion('/')">/</button>
+            <button class="operator" onclick="operacion('DEL')">DEL</button>
         </div>
         <div class="numbersRow">
             <button class="number" onclick="numero(1)">1</button>
