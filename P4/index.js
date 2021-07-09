@@ -2,6 +2,7 @@ function start (){
     enableButtons();
     enableSliders();
     drawImage();
+    color();
     document.getElementsByClassName('canvasButton')[0].classList.add('hidden');
     document.getElementsByClassName('canvas')[0].classList.remove('hidden');
 }
@@ -73,4 +74,15 @@ function grayscale(){
     document.getElementById('color').classList.remove('buttonClicked');
     document.getElementById('gray').classList.add('buttonClicked');
     disableSliders();
+}
+function color(){
+    document.getElementsByClassName('canvas')[0].removeAttribute('style');
+    document.getElementById('gray').classList.remove('buttonClicked');
+    document.getElementById('color').classList.add('buttonClicked');
+    enableSliders();
+}
+function reset(){
+    resetSlider();
+    drawImage();
+    color();
 }
