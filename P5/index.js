@@ -39,6 +39,10 @@ function disableButtons(){
 }
 
 function on(){
-    
     enableTestCameras();
+    enableButtons();
 }
+function off(){
+    disableButtons();
+    disableTestCameras();
+} 
