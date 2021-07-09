@@ -34,3 +34,7 @@
     margin: 10px auto;
     width: 180px;
   }
+  .buttonClicked{
+    opacity: 0.5;
+    box-shadow: 1px 1px 3px #000;
+  }
