@@ -1,1 +1,3 @@
  # Práctica 5
+En esta practica seremos realizadores de television, para ello primero activamos las fuentes pulsando 'fuentes On' de esta manera se empieza a reproducir en dos pequeñas pantallas los videos que tenemos mientra en la pantalla pincipal tenemos la imagen de test.
+Para cambiar de una camara a otra solo hay que pulsar los botones de 'video1', 'video 2' o 'test' para cambiar el recurso y para apagar las fuentes solo hay que pulsar 'fuentes OFF'
