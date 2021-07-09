@@ -1,10 +1,14 @@
 
+/*body ---> class cv */
 .cv{
     background-image: url("https://pabloarribasgar.github.io/2020-2021-CSAAI-Practicas/P1/fondo.jpg");
     max-width: 980px;
     margin: auto;
     font-size: 18px;
+    color: black;
 }
+
+/*seccion de la image , tlf, etc */
 .personalInfo{
     display: flex;
     flex-direction: row;
@@ -12,45 +16,58 @@
     margin: 20px 0;
     font-size: 16px;
 }
+
+/* imagen del cv*/
 .photo{
     max-height: 150px;
 }
+
+/* listas*/
 ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
+/* nombre principal*/
 .name{
     text-align: center;
     font-size: 40px;
 }
+/* resto del cv - name*/
 .cvInfo{
     margin: 20px 50px;
 }
+/*div de informacion personal*/
 .info{
     align-self: center;
 }
+/* titulos de secciones*/
 .title{
     font-size:24px;
     margin-top: 40px;
 }
+/* secciones */
 section{
     margin: 0 10%;
 }
+/* divs de las secciones, debajo de la informacion personal*/
 .sectionInfo{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     margin-top: 10px;
 }
+/*div parrafos*/
 .sectionDetail{
     display: flex;
     flex-direction: column;
     margin-left: 30px;
 }
+/*parrafos*/
 .infoType{
     font-weight: 600;
 }
+/*div listas*/
 .sectionDetailList{
     margin-top: 5px;
 }
