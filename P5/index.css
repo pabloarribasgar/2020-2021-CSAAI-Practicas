@@ -19,3 +19,14 @@ button{
 .testImage{
     width: 50%;
 }
+.hidden{
+    display: none;
+}
+section{
+    margin-bottom: 50px;
+}
+.testCamera{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

@@ -46,3 +46,13 @@ function off(){
     disableButtons();
     disableTestCameras();
 } 
+
+
+function switchOnMain(){
+    document.getElementsByClassName('mainImage')[0].classList.add('hidden');
+    document.getElementsByClassName('videoMain')[0].classList.remove('hidden');
+}
+function switchOffMain(){
+    document.getElementsByClassName('videoMain')[0].classList.add('hidden')
+    document.getElementsByClassName('mainImage')[0].classList.remove('hidden');
+}
