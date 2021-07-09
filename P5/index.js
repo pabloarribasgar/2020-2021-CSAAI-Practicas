@@ -19,6 +19,25 @@ function disableTestCameras(){
     }
 }
 
+function enableButtons(){
+    const buttons = document.getElementsByClassName('actionButton');
+    for (let i=0;i<buttons.length;i++){
+        if(buttons[i].id == "on")
+            buttons[i].setAttribute('disabled', true);
+        else
+            buttons[i].removeAttribute('disabled');
+    }
+}
+function disableButtons(){
+    const buttons = document.getElementsByClassName('actionButton');
+    for (let i=0;i<buttons.length;i++){
+        if(buttons[i].id == "on")
+            buttons[i].removeAttribute('disabled');
+        else
+            buttons[i].setAttribute('disabled', true);
+    }
+}
+
 function on(){
     
     enableTestCameras();
