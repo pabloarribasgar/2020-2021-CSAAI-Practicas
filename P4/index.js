@@ -18,11 +18,16 @@ function enableSliders (){
         sliders[i].removeAttribute('disabled'); 
     }
 }
-function drawImage(){
+function drawImage(){  /* por qué no me pintas la imagen?*/ 
     const img = document.getElementsByClassName('original')[0];
     const canvas = document.getElementsByClassName('canvas')[0];
     const context = canvas.getContext('2d');
     context.drawImage(img, 0,0);
+}
+function slide(id){
+    const value = document.getElementById(id).value;
+    document.getElementById(id + 'Value').innerText = value;
+    reDrawCanvas();
 }
 
 function reDrawCanvas(){
