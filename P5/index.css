@@ -1,3 +1,7 @@
+body{
+    background-color: cornflowerblue;
+}
+
 .mainCamera{
     display: flex;
     flex-direction: row;
