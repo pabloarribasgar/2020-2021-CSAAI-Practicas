@@ -19,6 +19,19 @@ function disableTestCameras(){
     }
 }
 
+function enableTestImages(){
+    const images = document.getElementsByClassName('testImage');
+    for (let i=0;i<images.length;i++){
+        images[i].classList.remove('hidden');
+    }
+}
+function disableTestImages(){
+    const images = document.getElementsByClassName('testImage');
+    for (let i=0;i<images.length;i++){
+        images[i].classList.add('hidden');
+    }
+}
+
 function enableButtons(){
     const buttons = document.getElementsByClassName('actionButton');
     for (let i=0;i<buttons.length;i++){
@@ -39,12 +52,15 @@ function disableButtons(){
 }
 
 function on(){
+    disableTestImages();
     enableTestCameras();
     enableButtons();
 }
 function off(){
     disableButtons();
     disableTestCameras();
+    enableTestImages();
+    switchOffMain();
 } 
 
 
