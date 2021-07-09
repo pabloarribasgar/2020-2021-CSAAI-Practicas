@@ -10,3 +10,10 @@ function enableButtons (){
       buttons[i].removeAttribute('disabled'); 
     }
 }
+
+function enableSliders (){
+    const sliders = document.getElementsByClassName('inputSlider');
+    for (let i=0;i<buttons.length;i++){
+      buttons[i].removeAttribute('disabled'); 
+    }
+}
