@@ -58,8 +58,7 @@ function reDrawCanvas(){
         data[i+2] = blue;
         }
     }
-    context.put
-    ImageData(imageData, 0, 0);
+    context.putImageData(imageData, 0, 0);
 }
 function resetSlider(){
     const sliders = document.getElementsByClassName('inputSlider');
