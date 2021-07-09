@@ -1,0 +1,21 @@
+.mainCamera{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cameras{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+button{
+    margin: 0 5px;
+}
+.testImage{
+    width: 50%;
+}
