@@ -63,6 +63,14 @@ function off(){
     switchOffMain();
 } 
 
+function video1(){
+    document.getElementById('mainVideo').src = src1 + '&loop=1';
+    switchOnMain();
+}
+function video2(){
+    document.getElementById('mainVideo').src = src2 + '&loop=1';
+    switchOnMain();
+}
 
 function switchOnMain(){
     document.getElementsByClassName('mainImage')[0].classList.add('hidden');

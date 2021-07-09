@@ -1,3 +1,7 @@
+body{
+  background-color: cornflowerblue;
+}
+
 .imagesArea{
     display: flex;
     flex-direction: row;
