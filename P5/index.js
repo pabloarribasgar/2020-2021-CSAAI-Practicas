@@ -1,5 +1,5 @@
-const src1 = 'https://gsyc.urjc.es/jmplaza/csaai/realizador-fuente1.mp4?&autoplay=1&autopause=0';
-const src2 = 'https://gsyc.urjc.es/jmplaza/csaai/realizador-fuente2.mp4?&autoplay=1&autopause=0';
+const src1 = 'https://gsyc.urjc.es/jmplaza/csaai/realizador-fuente1.mp4?&autoplay=1&mute=1&autopause=0';
+const src2 = 'https://gsyc.urjc.es/jmplaza/csaai/realizador-fuente2.mp4?&autoplay=1&mute=1&autopause=0';
 
 function enableTestCameras(){
     const cameras = document.getElementsByClassName('videoTest');
