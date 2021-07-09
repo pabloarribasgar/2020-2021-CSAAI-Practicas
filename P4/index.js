@@ -51,5 +51,19 @@ function reDrawCanvas(){
         data[i+2] = blue;
         }
     }
-    context.putImageData(imageData, 0, 0);
+    context.put
+    ImageData(imageData, 0, 0);
+}
+function resetSlider(){
+    const sliders = document.getElementsByClassName('inputSlider');
+    for (let i=0;i<sliders.length;i++){
+        sliders[i].value = 0;
+        document.getElementById(sliders[i].id + 'Value').innerText = 0;
+    }
+}
+
+function grayscale(){
+    document.getElementsByClassName('canvas')[0].setAttribute('style', 'filter: grayscale(1)');
+    document.getElementById('color').classList.remove('buttonClicked');
+    document.getElementById('gray').classList.add('buttonClicked');
 }
