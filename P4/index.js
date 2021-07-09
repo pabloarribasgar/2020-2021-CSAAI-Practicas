@@ -18,7 +18,7 @@ function enableSliders (){
         sliders[i].removeAttribute('disabled'); 
     }
 }
-function drawImage(){  /* por qué no me pintas la imagen?*/ 
+function drawImage(){  
     const img = document.getElementsByClassName('original')[0];
     const canvas = document.getElementsByClassName('canvas')[0];
     const context = canvas.getContext('2d');
